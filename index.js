@@ -2,15 +2,15 @@ var array = [];
 
 function iterativeLog(array){
 
-  array.forEach(console.log (${index} : ${element}));
+  array.forEach(console.log ("${index} : ${element}"));
 
 } // end of function iterativeLog
 
-  function iterate(){
+  function iterate(callback){
     
     var array2 = ["cat", "dog"];
 
-    array2.forEach() // passing the callback to .forEach??
+    array2.forEach(callback); // passing the callback to .forEach??
 
     return array2;
     
