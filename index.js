@@ -1,10 +1,10 @@
-var array = [];
+var array = [0,1,2,3,4];
 
 function iterativeLog(array){
 
   array.forEach(element => {
     console.log('${index}: ${element}')
-  })
+  });
 
 
 } // end of function iterativeLog
