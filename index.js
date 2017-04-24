@@ -1,10 +1,11 @@
-var array = [1,2,3];
+var array = [];
 
 function iterativeLog(array){
 
-  array.forEach(
-    console.log('${index}: ${element}')//problem here
-  );
+  array.forEach(element => {
+    console.log('${index}: ${element}')
+  })
+
 
 } // end of function iterativeLog
 
