@@ -2,7 +2,7 @@ var array = [];
 
 function iterativeLog(array){
 
-  array.forEach(console.log ("${index} : ${element}"));
+  array.forEach(console.log ("${index}"+ ":" + "${element}"));
 
 } // end of function iterativeLog
 
@@ -18,7 +18,7 @@ function iterativeLog(array){
 
 function doToArray(array, callback){
 
-  array.forEach();//passing the callback as the forEach callback?
+  array.forEach(callback);//passing the callback as the forEach callback?
 }
 
 
