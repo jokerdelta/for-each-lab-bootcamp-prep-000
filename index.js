@@ -1,8 +1,10 @@
-var array = [];
+var array = [1,2,3];
 
 function iterativeLog(array){
 
-  array.forEach(console.log('${index}: ${element}'));
+  array.forEach(
+    console.log('${index}: ${element}')//problem here
+  );
 
 } // end of function iterativeLog
 
@@ -10,7 +12,7 @@ function iterativeLog(array){
     
     var array2 = ["cat", "dog"];
 
-    array2.forEach(callback); // passing the callback to .forEach??
+    array2.forEach(callback);
 
     return array2;
     
@@ -18,8 +20,8 @@ function iterativeLog(array){
 
 function doToArray(array, callback){
 
-  array.forEach(callback);//passing the callback as the forEach callback?
-}
+  array.forEach(callback);
+} // end of function doToArray
 
 
   
